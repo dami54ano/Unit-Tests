@@ -1,0 +1,121 @@
+[
+  {
+    "id": "TF-01",
+    "field": "Titel",
+    "kind": "leer",
+    "input": "\"\"",
+    "expected": false
+  },
+  {
+    "id": "TF-02",
+    "field": "Titel",
+    "kind": "untere Grenze",
+    "input": "\"a\"",
+    "expected": true
+  },
+  {
+    "id": "TF-03",
+    "field": "Titel",
+    "kind": "Normalwert",
+    "input": "\"a\" x 50",
+    "expected": true
+  },
+  {
+    "id": "TF-04",
+    "field": "Titel",
+    "kind": "obere Grenze",
+    "input": "\"a\" x 100",
+    "expected": true
+  },
+  {
+    "id": "TF-05",
+    "field": "Titel",
+    "kind": "zu lang",
+    "input": "\"a\" x 101",
+    "expected": false
+  },
+  {
+    "id": "TF-06",
+    "field": "Titel",
+    "kind": "fehlend",
+    "input": "null",
+    "expected": false
+  },
+  {
+    "id": "TF-07",
+    "field": "Titel",
+    "kind": "nur Leerzeichen",
+    "input": "\"   \"",
+    "expected": false
+  },
+  {
+    "id": "TF-08",
+    "field": "Priorität",
+    "kind": "unterhalb / Grenze",
+    "input": "0",
+    "expected": false
+  },
+  {
+    "id": "TF-09",
+    "field": "Priorität",
+    "kind": "untere gültige Grenze",
+    "input": "1",
+    "expected": true
+  },
+  {
+    "id": "TF-10",
+    "field": "Priorität",
+    "kind": "gültige Klasse",
+    "input": "3",
+    "expected": true
+  },
+  {
+    "id": "TF-11",
+    "field": "Priorität",
+    "kind": "obere gültige Grenze",
+    "input": "5",
+    "expected": true
+  },
+  {
+    "id": "TF-12",
+    "field": "Priorität",
+    "kind": "oberhalb / Grenze",
+    "input": "6",
+    "expected": false
+  },
+  {
+    "id": "TF-13",
+    "field": "Fälligkeit",
+    "kind": "Vergangenheit / Grenze",
+    "input": "2026-10-19",
+    "expected": false
+  },
+  {
+    "id": "TF-14",
+    "field": "Fälligkeit",
+    "kind": "heute / Grenze",
+    "input": "2026-10-20",
+    "expected": true
+  },
+  {
+    "id": "TF-15",
+    "field": "Fälligkeit",
+    "kind": "Zukunft",
+    "input": "2026-10-21",
+    "expected": true
+  },
+  {
+    "id": "TF-16",
+    "field": "Fälligkeit",
+    "kind": "fehlend",
+    "input": "null",
+    "expected": false
+  },
+  {
+    "id": "TF-17",
+    "field": "Titel",
+    "kind": "Spezialfall Whitespace",
+    "input": "\"\\t\\n\"",
+    "expected": false
+  }
+]

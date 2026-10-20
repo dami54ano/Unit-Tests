@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bbw.aufgabenapp.TaskValidatorTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-10-20T13:16:50.483Z" hostname="U361778" time="0.081">
+  <properties/>
+  <testcase name="TF-08: Priorität 0 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.004"/>
+  <testcase name="TF-09: Priorität 1 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-10: Priorität 3 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-11: Priorität 5 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.005"/>
+  <testcase name="TF-12: Priorität 6 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.003"/>
+  <testcase name="TF-01: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.006"/>
+  <testcase name="TF-02: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-03: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-04: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-05: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-06: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-07: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-17: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-13: Fälligkeit 2026-10-19 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.005"/>
+  <testcase name="TF-14: Fälligkeit 2026-10-20 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-15: Fälligkeit 2026-10-21 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-16: Fälligkeit null gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

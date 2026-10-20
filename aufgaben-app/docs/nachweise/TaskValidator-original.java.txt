@@ -1,0 +1,24 @@
+package ch.bbw.aufgabenapp;
+
+import java.time.LocalDate;
+
+public class TaskValidator {
+    public static final int MAX_TITLE_LENGTH = 100;
+    public static final int MIN_PRIORITY = 1;
+    public static final int MAX_PRIORITY = 5;
+
+    public boolean isTitleValid(String title) {
+        if (title == null || title.isBlank()) {
+            return false;
+        }
+        return title.length() < MAX_TITLE_LENGTH;
+    }
+
+    public boolean isPriorityValid(int priority) {
+        return priority >= MIN_PRIORITY && priority <= MAX_PRIORITY;
+    }
+
+    public boolean isDueDateValid(LocalDate dueDate, LocalDate today) {
+        return dueDate != null && dueDate.isAfter(today);
+    }
+}

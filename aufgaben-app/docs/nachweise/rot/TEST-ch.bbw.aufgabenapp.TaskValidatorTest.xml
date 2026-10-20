@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bbw.aufgabenapp.TaskValidatorTest" tests="17" skipped="0" failures="2" errors="0" timestamp="2026-10-20T13:14:55.037Z" hostname="U361778" time="0.231">
+  <properties/>
+  <testcase name="TF-08: Priorität 0 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.117"/>
+  <testcase name="TF-09: Priorität 1 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-10: Priorität 3 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-11: Priorität 5 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-12: Priorität 6 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-01: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.007"/>
+  <testcase name="TF-02: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-03: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-04: Titel gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.025">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//ch.bbw.aufgabenapp.TaskValidatorTest.title(TaskValidatorTest.java:30)
+	at java.base@25.0.2/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="TF-05: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-06: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-07: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-17: Titel gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.002"/>
+  <testcase name="TF-13: Fälligkeit 2026-10-19 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.006"/>
+  <testcase name="TF-14: Fälligkeit 2026-10-20 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.005">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//ch.bbw.aufgabenapp.TaskValidatorTest.dueDate(TaskValidatorTest.java:61)
+	at java.base@25.0.2/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base@25.0.2/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base@25.0.2/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@25.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@25.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@25.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@25.0.2/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="TF-15: Fälligkeit 2026-10-21 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <testcase name="TF-16: Fälligkeit null gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

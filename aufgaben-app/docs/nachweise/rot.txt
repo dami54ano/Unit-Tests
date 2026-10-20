@@ -1,0 +1,60 @@
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+TaskValidatorTest > priority(String, int, boolean) > TF-08: Priorität 0 gültig = false PASSED
+
+TaskValidatorTest > priority(String, int, boolean) > TF-09: Priorität 1 gültig = true PASSED
+
+TaskValidatorTest > priority(String, int, boolean) > TF-10: Priorität 3 gültig = true PASSED
+
+TaskValidatorTest > priority(String, int, boolean) > TF-11: Priorität 5 gültig = true PASSED
+
+TaskValidatorTest > priority(String, int, boolean) > TF-12: Priorität 6 gültig = false PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-01: Titel gültig = false PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-02: Titel gültig = true PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-03: Titel gültig = true PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-04: Titel gültig = true FAILED
+    org.opentest4j.AssertionFailedError at TaskValidatorTest.java:30
+
+TaskValidatorTest > title(String, String, boolean) > TF-05: Titel gültig = false PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-06: Titel gültig = false PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-07: Titel gültig = false PASSED
+
+TaskValidatorTest > title(String, String, boolean) > TF-17: Titel gültig = false PASSED
+
+TaskValidatorTest > dueDate(String, LocalDate, boolean) > TF-13: Fälligkeit 2026-10-19 gültig = false PASSED
+
+TaskValidatorTest > dueDate(String, LocalDate, boolean) > TF-14: Fälligkeit 2026-10-20 gültig = true FAILED
+    org.opentest4j.AssertionFailedError at TaskValidatorTest.java:61
+
+TaskValidatorTest > dueDate(String, LocalDate, boolean) > TF-15: Fälligkeit 2026-10-21 gültig = true PASSED
+
+TaskValidatorTest > dueDate(String, LocalDate, boolean) > TF-16: Fälligkeit null gültig = false PASSED
+
+17 tests completed, 2 failed
+
+> Task :test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///C:/Users/TACSCDA2/Dev/Schule/450/Unit-Tests/aufgaben-app/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 14s
+3 actionable tasks: 3 executed

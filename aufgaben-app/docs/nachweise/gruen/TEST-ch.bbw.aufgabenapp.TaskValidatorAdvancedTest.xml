@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-20T13:16:50.140Z" hostname="U361778" time="0.33">
+  <properties/>
+  <testcase name="Z10_utcIsStillPreviousDay()" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.064"/>
+  <testcase name="Z-16: extreme Priorität -2147483648 abgelehnt" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.053"/>
+  <testcase name="Z-17: extreme Priorität 2147483647 abgelehnt" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-01 / R1: gesamte Aufgabe gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.023"/>
+  <testcase name="Z-02 / R2: gesamte Aufgabe gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-03 / R3: gesamte Aufgabe gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.003"/>
+  <testcase name="Z-04 / R4: gesamte Aufgabe gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-11: UTF-16-Länge 200, Codepoints 100, gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.025"/>
+  <testcase name="Z-12: UTF-16-Länge 202, Codepoints 101, gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-13: UTF-16-Länge 2, Codepoints 1, gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.001"/>
+  <testcase name="Z-14: UTF-16-Länge 101, Codepoints 100, gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-15: UTF-16-Länge 102, Codepoints 101, gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-05: feste Clock, Fälligkeit 2026-10-19 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.009"/>
+  <testcase name="Z-06: feste Clock, Fälligkeit 2026-10-20 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.001"/>
+  <testcase name="Z-07: feste Clock, Fälligkeit 2026-10-21 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.001"/>
+  <testcase name="Z-08: feste Clock, Fälligkeit null gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.001"/>
+  <testcase name="Z-18: feste Clock, Fälligkeit -999999999-01-01 gültig = false" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z-19: feste Clock, Fälligkeit +999999999-12-31 gültig = true" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <testcase name="Z09_zurichIsAlreadyNextDay()" classname="ch.bbw.aufgabenapp.TaskValidatorAdvancedTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
